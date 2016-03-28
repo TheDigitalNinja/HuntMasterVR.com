@@ -5,8 +5,6 @@ tags: devblog
 ---
 I have been internally releasing stable builds and moving down never ending list of trello tasks for a while now. I figured now is as good as time as any to setup a website and starting doing monthly or bi-monthly updates on the progress of the game.
 
-<!-- more --> 
-
 What we have so far
 -------
 I have spent most of my time focusing on one level where I worked out all the AI movement and creating prefabs for the main game objects. AI now navigates around trees and rocks, through bushes and can be killed and give points. After all three are either killed or escaped a game over is triggered and you are taken to a score room to see how well you did. This all need much more fleshing out in both design and function, but it works and these are now prefabs that can be worked on independently or moved from scene to scene. 
