@@ -1,0 +1,39 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- facebook_like_box
+- category
+- tag
+- donate
+- recent_posts
+- archive
+
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics: UA-75164969-1
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id: 203012166731855
+disqus_shortname: huntmastervr
