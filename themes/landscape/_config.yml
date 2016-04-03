@@ -12,8 +12,6 @@ fancybox: true
 sidebar: right
 widgets:
 - facebook_like_box
-- category
-- tag
 - donate
 - recent_posts
 - archive
