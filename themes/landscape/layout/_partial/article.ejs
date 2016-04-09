@@ -11,6 +11,11 @@
       </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
+      <% if (post.featured_image){ %>
+          <a href='<%- url_for(post.path) %>' class="nofancybox">
+            <img src="<%- post.featured_image %>" class="nofancybox">
+          </a>
+      <% } %>
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>
