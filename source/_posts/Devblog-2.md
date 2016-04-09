@@ -1,10 +1,10 @@
 ---
 title: Devblog 2
 date: 2016-04-02 13:36:26
+featured_image: banner.png
+thumbnail: banner_thumbnail.png
 tags:
 ---
-
-{% asset_img banner.png "Devblog 2" %}
 
 It's the end of month two of offical development and so here is a quick recap.
 
