@@ -12,9 +12,13 @@
     <% } %>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.featured_image){ %>
+        <% if (index) { %>
           <a href='<%- url_for(post.path) %>' class="nofancybox">
-            <img src="<%- post.featured_image %>" class="nofancybox">
+            <img src="<%- post.thumbnail %>" class="nofancybox">
           </a>
+        <% } else { %>
+            <img src="<%- post.featured_image %>">
+        <% } %>
       <% } %>
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>

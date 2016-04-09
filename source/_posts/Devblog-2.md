@@ -2,7 +2,7 @@
 title: Devblog 2
 date: 2016-04-02 13:36:26
 featured_image: banner.png
-thumbnail: banner.png
+thumbnail: banner_thumbnail.png
 tags:
 ---
 
